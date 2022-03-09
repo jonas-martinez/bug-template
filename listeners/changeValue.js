@@ -1,6 +1,6 @@
 'use strict'
 
-module.exports = (data, _props, event) => {
-    data.value = event.value
+module.exports = (data, props, _event) => {
+    data.value = props.value
     return data
 }

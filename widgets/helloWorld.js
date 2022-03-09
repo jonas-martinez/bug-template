@@ -5,6 +5,8 @@ module.exports = (data, props) => {
 }
 
 function page(page) {
+  console.log("SWITCH PAGE");
+  console.log(page);
   switch (page) {
     case "first":
       return firstPage();
